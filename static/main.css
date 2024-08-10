@@ -1,0 +1,51 @@
+:root {
+    /* Light variables */
+    --primary-bg: #FFF;
+    --secondary-bg: #F1F1F1;
+    --tertiary-bg: #EEE;
+    --quaternary-bg: #E5E1DA;
+
+    --primary-text: #000;
+    --secondary-text: #222;
+
+    --primary-border: #363A43;
+    --secondary-border: #D3D3D3;
+
+    --field-border-color: #14141480;
+    --field-border-color-hover: #141414;
+
+    /* Dark variables */
+    /* --primary-bg: #222;
+    --secondary-bg: #352F44;
+    --tertiary-bg: #1A1A2E;
+    --quaternary-bg: #635985;
+
+    --primary-text: #FFF;
+    --secondary-text: #DDD;
+
+    --primary-border: #F9F5F6;
+    --secondary-border: #C4B6B6;
+
+    --field-border-color: #AAA;
+    --field-border-color-hover: #EEE; */
+
+    /* Form fields variables */
+    --field-border-width: 3px;
+
+    --field-border:
+        var(--field-border-width)
+        solid
+        var(--field-border-color);
+
+    --field-transition-duration: 150ms;
+    --field-transition: border-color var(--field-transition-duration);
+
+    --field-disabled-opacity: 0.5;
+
+    --box-checked-color: #00853E;
+}
+
+body {
+    background-color: var(--secondary-bg);
+    margin: 0;
+}
